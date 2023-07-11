@@ -1,0 +1,4 @@
+.bgc {
+    color: brown;
+    background: var(--color-bg);
+}
