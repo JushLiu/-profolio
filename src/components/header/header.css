@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -33,7 +33,7 @@ header {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--color-primary);
+  background: var(--color-bg-variant);
 }
 
 /* ME */
@@ -62,7 +62,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 100vh;
+    height: 68vh;
   }
 }
 

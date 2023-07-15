@@ -1,6 +1,8 @@
 產生 rsa 金鑰
 
 ```
+ssh-keygen -t rsa -f [path] -C [username]
+
 rsa -b 2048 -C jush
 ```
 
@@ -18,7 +20,17 @@ ssh jush@34.81.252.6
 sudo apt install nginx
 sudo apt install nodejs
 sudo apt install npm
+sudo apt-get install git-all
 ```
+
+安裝 nvm 管理 node 版本
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+然後在虛擬機拉 code 下來 build
+然後掛到 nginx 裡面就發布完成了
 
 Nginx 的主要設定檔通常會放置在 /etc/nginx/nginx.conf
 另外在 /etc/nginx/conf.d/\*.conf 則會放置不同域名的 config file
