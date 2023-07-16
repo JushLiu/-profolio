@@ -1,10 +1,10 @@
 import React from "react";
-import { BiLogoFacebookSquare } from "react-icons/bi";
+// import { BiLogoFacebookSquare } from "react-icons/bi";
 
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://google.com" target="_blank" rel="noreferrer">
+      {/* <a href="https://google.com" target="_blank" rel="noreferrer">
         <BiLogoFacebookSquare />
       </a>
       <a href="https://google.com" target="_blank" rel="noreferrer">
@@ -12,7 +12,8 @@ const HeaderSocials = () => {
       </a>
       <a href="https://google.com" target="_blank" rel="noreferrer">
         <BiLogoFacebookSquare />
-      </a>
+      </a> */}
+      <span>Cell Phone : 0903153135</span>
     </div>
   );
 };

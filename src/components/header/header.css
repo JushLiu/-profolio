@@ -20,20 +20,23 @@ header {
 
 /* header socials */
 .header__socials {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  align-items: center;
   position: absolute;
-  left: 0;
-  bottom: 3rem;
+  align-items: center;
+  display: flex;
+  left: -4rem;
+  bottom: 8rem;
+  transform: rotate(-90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-indent: 2rem;
 }
 
-.header__socials::after {
+.header__socials::before {
   content: "";
-  width: 1px;
+  width: 10px;
   height: 2rem;
   background: var(--color-bg-variant);
+  transform: rotate(90deg);
 }
 
 /* ME */
@@ -46,6 +49,7 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 3rem 3rem;
   overflow: hidden;
+  box-shadow: 0px 0px 15px;
 }
 
 /* Scroll down */
