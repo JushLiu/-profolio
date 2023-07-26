@@ -1,5 +1,5 @@
 #experience {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 3rem;
 }
 
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1024px) {
   #experience {
-    height: 68vh;
+    padding-top: 6rem;
   }
   .experience__container {
     grid-template-columns: auto;
@@ -62,9 +62,6 @@
 /* media queries (small devices) */
 
 @media screen and (max-width: 600px) {
-  #experience {
-    height: 100vh;
-  }
   .experience__container {
     gap: 1rem;
   }

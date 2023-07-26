@@ -1,5 +1,5 @@
 #contact {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 5rem;
 }
 
@@ -30,9 +30,8 @@ form > button {
 
 @media screen and (max-width: 1024px) {
   #contact {
-    height: 68vh;
+    padding-top: 10rem;
   }
-
   form {
     width: 70%;
   }
@@ -42,9 +41,8 @@ form > button {
 
 @media screen and (max-width: 600px) {
   #contact {
-    height: 100vh;
+    padding-top: 5rem;
   }
-
   form {
     width: 90%;
   }

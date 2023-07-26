@@ -27,11 +27,6 @@ const portfolios = [
     href: "https:google.com",
     title: "This is a portfolio item title.",
   },
-  {
-    src: POR5,
-    href: "https:google.com",
-    title: "This is a portfolio item title.",
-  },
 ];
 
 function Portfolio() {

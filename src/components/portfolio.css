@@ -1,4 +1,5 @@
 #portfolio {
+  min-height: 100vh;
   padding-top: 3rem;
 }
 
@@ -27,6 +28,12 @@
 /* media queries (medium devices) */
 
 @media screen and (max-width: 1024px) {
+  #portfolio {
+    padding-top: 6rem;
+  }
+  .portfolio__container {
+    grid-template-columns: repeat(2, auto);
+  }
 }
 
 /* media queries (small devices) */
