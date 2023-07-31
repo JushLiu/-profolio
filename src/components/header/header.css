@@ -81,4 +81,9 @@ header {
   header {
     padding-top: 2rem;
   }
+
+  .me {
+    width: 20rem;
+    height: 22rem;
+  }
 }

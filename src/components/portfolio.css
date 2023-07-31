@@ -5,7 +5,8 @@
 
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  /* grid-template-columns: repeat(3, auto); */
+  grid-template-columns: auto;
   gap: 2.5rem;
 }
 
@@ -13,9 +14,13 @@
   background: var(--color-bg);
   text-align: center;
   overflow: hidden;
+  margin: auto;
+  width: 50%;
   border-radius: 2rem;
   box-shadow: 0 0 20px var(--color-bg);
   transition: var(--transition);
+}
+.portfolio__item a h3 {
   color: #eddfcc;
 }
 
@@ -31,16 +36,19 @@
   #portfolio {
     padding-top: 6rem;
   }
-  .portfolio__container {
+  /* .portfolio__container {
     grid-template-columns: repeat(2, auto);
+  } */
+
+  .portfolio__item {
+    width: 80%;
   }
 }
 
 /* media queries (small devices) */
 
 @media screen and (max-width: 600px) {
-  .portfolio__container {
-    grid-template-columns: auto;
-    gap: 2.5rem;
+  .portfolio__item {
+    width: 100%;
   }
 }
